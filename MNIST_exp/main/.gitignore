@@ -1,0 +1,10 @@
+.idea
+*~
+models
+download_models
+dataset_cache/
+data/
+analysis
+init_models/
+figures/
+.DS_Store
