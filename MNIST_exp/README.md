@@ -41,11 +41,11 @@ python code/compute_l0.py models/mnist/cnn/alpha_0.80/test.txt thresholds/mnist/
 
  * Please see below for computing &rho;<sup>-1</sup><sub>r</sub>(0.5) for other &alpha; values.
 
-## Computing a customized / Reproducing &rho;<sup>-1</sup><sub>r</sub>(0.5)
+## Computing a customized / reproducing &rho;<sup>-1</sup><sub>r</sub>(0.5)
 
 ### Computing the cardinality of each region |L(u, v; r)|
 
- * The command will compute the cardinalities for r in {0,1,...,20}
+ * The command will compute the cardinalities of each |L(u, v; r)| for r in {0,1,...,20}
 
 ```
 cd compute_rho/
