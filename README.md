@@ -4,9 +4,9 @@ This repository is for the paper
 
  * "[A Stratified Approach to Robustness for Randomly Smoothed Classifiers](https://arxiv.org/pdf/1906.04948.pdf)" by [Guang-He Lee](https://people.csail.mit.edu/guanghe/), [Yang Yuan](http://www.callowbird.com), [Shiyu Chang](http://people.csail.mit.edu/chang87/), and [Tommi S. Jaakkola](http://people.csail.mit.edu/tommi/) in arxiv.
 
-## Package version 
+## Experiments 
 
- * Please see each directory
+ * Please see each experiment in the corresponding directory (and the README therein).
 
 ## Release Schedule
 
