@@ -17,7 +17,7 @@ This repository is for the paper
 
 ### The repo structure
 
- * [compute_rho/](compute_rho) contains the code for computing &rho;<sup>-1</sup><sub>$r$</sub>$(0.5)$ in Alg. 1.
+ * [compute_rho/](compute_rho) contains the code for computing &rho;<sup>-1</sup><sub>r</sub>(0.5) in Alg. 1.
  * [main/](main) contains the code for training and certifying networks.
 
 ## Training and certifying a network smoothed by the discrete perturbation
@@ -37,24 +37,24 @@ sh scripts/cnn_bernoulli.sh
 python code/compute_l0.py models/mnist/cnn/alpha_0.80/test.txt thresholds/mnist/0.8.txt 
 ```
 
- * To run the experiments with other &alpha values, please revise the script, and run the above command with different thresholds (&rho;<sup>-1</sup><sub>$r$</sub>$(0.5)$). Note that we have included several &rho;<sup>-1</sup><sub>$r$</sub>$(0.5)$ for different &alpha values in thresholds/mnist/
+ * To run the experiments with other \alpha values, please revise the script, and run the above command with different thresholds (&rho;<sup>-1</sup><sub>r</sub>(0.5)). Note that we have included several &rho;<sup>-1</sup><sub>r</sub>(0.5) for different &alpha values in thresholds/mnist/
 
- * Please see below for computing &rho;<sup>-1</sup><sub>$r$</sub>$(0.5)$ for other &alpha values.
+ * Please see below for computing &rho;<sup>-1</sup><sub>r</sub>(0.5) for other \alpha values.
 
-## Computing a customized / Reproducing &rho;<sup>-1</sup><sub>$r$</sub>$(0.5)$
+## Computing a customized / Reproducing &rho;<sup>-1</sup><sub>r</sub>(0.5)
 
-### Computing the cardinality of each region $|L(u, v; r)|$
+### Computing the cardinality of each region |L(u, v; r)|
 
- * The command will compute the cardinalities for $r$ in ${0,1,...,20}$
+ * The command will compute the cardinalities for r in {0,1,...,20}
 
 ```
 cd compute_rho/
 python count_mnist.py
 ``` 
 
-### Computing &rho;<sup>-1</sup><sub>$r$</sub>$(0.5)$
+### Computing &rho;<sup>-1</sup><sub>r</sub>(0.5)
 
- * When alpha = a / 100 (a is an integer), we run the following command to compute the corresponding \rho. We use a = 80 as an example:
+ * When alpha = a / 100 (a is an integer), we run the following command to compute the corresponding &rho;. We use a = 80 as an example:
 
 ```
 python threshold_mnist.py --a 80
