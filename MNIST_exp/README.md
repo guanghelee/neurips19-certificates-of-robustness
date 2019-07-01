@@ -29,7 +29,7 @@ cd main/
 sh scripts/cnn_bernoulli.sh
 ```
 
- * The results with &alpha = 0.8 will be in the foler models/mnist/cnn/alpha_0.80/
+ * The results with &alpha; = 0.8 will be in the foler models/mnist/cnn/alpha_0.80/
 
  * To see the results in ACC@r, please run 
 
@@ -37,9 +37,9 @@ sh scripts/cnn_bernoulli.sh
 python code/compute_l0.py models/mnist/cnn/alpha_0.80/test.txt thresholds/mnist/0.8.txt 
 ```
 
- * To run the experiments with other \alpha values, please revise the script, and run the above command with different thresholds (&rho;<sup>-1</sup><sub>r</sub>(0.5)). Note that we have included several &rho;<sup>-1</sup><sub>r</sub>(0.5) for different &alpha values in thresholds/mnist/
+ * To run the experiments with other &alpha; values, please revise the script, and run the above command with different thresholds (&rho;<sup>-1</sup><sub>r</sub>(0.5)). Note that we have included several &rho;<sup>-1</sup><sub>r</sub>(0.5) for different &alpha; values in thresholds/mnist/
 
- * Please see below for computing &rho;<sup>-1</sup><sub>r</sub>(0.5) for other \alpha values.
+ * Please see below for computing &rho;<sup>-1</sup><sub>r</sub>(0.5) for other &alpha; values.
 
 ## Computing a customized / Reproducing &rho;<sup>-1</sup><sub>r</sub>(0.5)
 
@@ -54,7 +54,7 @@ python count_mnist.py
 
 ### Computing &rho;<sup>-1</sup><sub>r</sub>(0.5)
 
- * When alpha = a / 100 (a is an integer), we run the following command to compute the corresponding &rho;. We use a = 80 as an example:
+ * When &alpha; = a / 100 (a is an integer), we run the following command to compute the corresponding &rho;. We use a = 80 as an example:
 
 ```
 python threshold_mnist.py --a 80
