@@ -1,8 +1,9 @@
-# A Stratified Approach to Robustness for Randomly Smoothed Classifiers:
+# Tight Certificates of Adversarial Robustness for Randomly Smoothed Classifiers:
 
 This repository is for the paper
 
- * "[A Stratified Approach to Robustness for Randomly Smoothed Classifiers](https://arxiv.org/pdf/1906.04948.pdf)" by [Guang-He Lee](https://people.csail.mit.edu/guanghe/), [Yang Yuan](http://www.callowbird.com), [Shiyu Chang](http://people.csail.mit.edu/chang87/), and [Tommi S. Jaakkola](http://people.csail.mit.edu/tommi/) in NeurIPS 2019.
+ * "[Tight Certificates of Adversarial Robustness for Randomly Smoothed Classifiers](https://arxiv.org/pdf/1906.04948.pdf)" by [Guang-He Lee](https://people.csail.mit.edu/guanghe/), [Yang Yuan](http://www.callowbird.com), [Shiyu Chang](http://people.csail.mit.edu/chang87/), and [Tommi S. Jaakkola](http://people.csail.mit.edu/tommi/) in NeurIPS 2019.
+ * The old title for this paper is "A Stratified Approach to Robustness for Randomly Smoothed Classifiers"
 
 ## Experiments 
 
@@ -19,10 +20,10 @@ This repository is for the paper
 If you find this repo useful for your research, please cite the paper
 
 ```
-@article{lee2019stratified,
-  title={A Stratified Approach to Robustness for Randomly Smoothed Classifiers},
-  author={Lee, Guang-He and Yuan, Yang and Chang, Shiyu and Jaakkola, Tommi S},
-  journal={arXiv preprint arXiv:1906.04948},
+@inproceedings{lee2019tight,
+  title={Tight Certificates of Adversarial Robustness for Randomly Smoothed Classifiers},
+  author={Guang-He Lee and Yang Yuan and Shiyu Chang and Tommi S. Jaakkola},
+  booktitle={Advances in Neural Information Processing Systems},
   year={2019}
 }
 ```
