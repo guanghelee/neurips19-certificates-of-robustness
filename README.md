@@ -12,7 +12,7 @@ This repository is for the paper
  * The ImageNet experiment has been released. (Not carefully checked. Please let me know if you find any problem.)
  * The pre-computed &rho;<sup>-1</sup><sub>r</sub>(0.5) and trained ResNet50 models have been released for the ImageNet experiment.
  * If you want to compute your own &rho;<sup>-1</sup><sub>r</sub>(0.5), please see the examples in the MNIST or ImageNet folder.
- * Please let me know ((guanghe@mit.edu)) if you need the codes for the decision tree experiment.
+ * Please let me know (guanghe@mit.edu) if you need the codes for the decision tree experiment.
 
 ## Citation:
 
