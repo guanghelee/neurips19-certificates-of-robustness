@@ -12,8 +12,9 @@ This repository is for the paper
 ## Release Schedule
 
  * The MNIST experiment has been released. 
+ * The ImageNet experiment has been released. (Not carefully checked. Please let me know if you find any problem.)
  * The pre-computed &rho;<sup>-1</sup><sub>r</sub>(0.5) and trained ResNet50 models have been released for the ImageNet experiment.
- * I will try to release other experiments gradually... If you need some help on other experiments, please let me know (guanghe@mit.edu), and I will try to release it soon.
+ * If you want to compute your own &rho;<sup>-1</sup><sub>r</sub>(0.5), please see the examples in the MNIST or ImageNet folder.
 
 ## Citation:
 
